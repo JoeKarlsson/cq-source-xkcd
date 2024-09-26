@@ -5,7 +5,7 @@ import (
 	"log"
 
 	"github.com/cloudquery/plugin-sdk/v4/serve"
-	"github.com/hermanschaaf/cq-source-xkcd/resources/plugin"
+	"github.com/joekarlsson/cq-source-xkcd/resources/plugin"
 )
 
 func main() {

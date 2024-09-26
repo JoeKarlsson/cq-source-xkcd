@@ -1,10 +1,11 @@
-module github.com/hermanschaaf/cq-source-xkcd
+module github.com/joekarlsson/cq-source-xkcd
 
 go 1.22.4
 
 require (
 	github.com/cloudquery/plugin-sdk/v4 v4.63.0
 	github.com/rs/zerolog v1.33.0
+	golang.org/x/sync v0.8.0
 	google.golang.org/grpc v1.66.2
 )
 
@@ -78,7 +79,6 @@ require (
 	golang.org/x/exp v0.0.0-20240909161429-701f63a606c0 // indirect
 	golang.org/x/mod v0.21.0 // indirect
 	golang.org/x/net v0.29.0 // indirect
-	golang.org/x/sync v0.8.0 // indirect
 	golang.org/x/sys v0.25.0 // indirect
 	golang.org/x/text v0.18.0 // indirect
 	golang.org/x/tools v0.25.0 // indirect

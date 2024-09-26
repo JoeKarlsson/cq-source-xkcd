@@ -14,9 +14,8 @@ import (
 	"github.com/cloudquery/plugin-sdk/v4/schema"
 	"github.com/cloudquery/plugin-sdk/v4/state"
 	"github.com/cloudquery/plugin-sdk/v4/transformers"
-
-	"github.com/hermanschaaf/cq-source-xkcd/client"
-	"github.com/hermanschaaf/cq-source-xkcd/internal/xkcd"
+	"github.com/joekarlsson/cq-source-xkcd/client"
+	"github.com/joekarlsson/cq-source-xkcd/internal/xkcd"
 	"github.com/joekarlsson/cq-source-xkcd/resources/services"
 	"github.com/rs/zerolog"
 	"google.golang.org/grpc"

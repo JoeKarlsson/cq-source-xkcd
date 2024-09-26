@@ -2,15 +2,15 @@ package plugin
 
 import (
 	"github.com/cloudquery/plugin-sdk/v4/plugin"
-)
-
-var (
-	Name    = "xkcd"
-	Kind    = "source"
-	Team    = "JoeKarlsson"
-	Version = "development"
+	internalPlugin "github.com/joekarlsson/cq-source-xkcd/plugin"
 )
 
 func Plugin() *plugin.Plugin {
-	return plugin.NewPlugin(Name, Version, Configure, plugin.WithKind(Kind), plugin.WithTeam(Team))
+	return plugin.NewPlugin(
+		internalPlugin.Name,
+		internalPlugin.Version,
+		Configure,
+		plugin.WithKind(internalPlugin.Kind),
+		plugin.WithTeam(internalPlugin.Team),
+	)
 }
